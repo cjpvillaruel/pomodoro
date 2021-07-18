@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <h1>Pomodoro</h1>
-      <ButtonGroup />
+      <ButtonGroup active="pomodoro" />
       <Timer running={false} />
       <SettingsLogo onClick={() => setSettingsModal(true)} />
 
